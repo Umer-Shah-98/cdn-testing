@@ -15,3 +15,5 @@ chatButtonEl.addEventListener("click", () => {
   }
   isIframeVisible = !isIframeVisible;
 });
+
+console.log("purged and updated");
