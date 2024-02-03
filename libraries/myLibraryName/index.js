@@ -1,4 +1,6 @@
- const textAccordingToType = (type) => {
+console.log('-----------------customFunctions.js loaded--------------------------');
+
+const textAccordingToType = (type) => {
     if (type === "onTraining") {
       return "No chatbot is currently undergoing training.";
     } else if (type === "active") {
