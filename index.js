@@ -20,4 +20,5 @@ console.log("This is my CDN testing.");
 
 console.log("CDN testing done");
 const type = "onTraining";
-console.log(textAccordingToType(type));
+const result = window.statusChecker.textAccordingToType("onTraining");
+console.log(result);
