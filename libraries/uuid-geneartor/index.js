@@ -1,4 +1,4 @@
-function generateShortUniqueId() {
+export function generateShortUniqueId() {
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     let randomString = "";
