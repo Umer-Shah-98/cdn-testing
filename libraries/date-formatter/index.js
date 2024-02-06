@@ -34,3 +34,5 @@ export const formatNotificationsDate = (dateString) => {
     console.log(formattedDate); // Output: Sept, 5, 2024, 7:29am
     return { date: formattedDate, time: formattedTime };
   };
+
+  //output : date:Jan, 5, 2024  time:2:29pm
